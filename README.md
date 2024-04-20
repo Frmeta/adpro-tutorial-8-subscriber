@@ -7,12 +7,12 @@ b. What it means? guest:guest@localhost:5672 , what is the first quest, and what
 - `localhost` is the hostname of the server. In this case, the server is running on the same machine as the client.
 - `5672` is the port number on which the server is listening. This is the default port for AMQP.
 
-![alt text](image.png)
+![alt text](img/image.png)
 Screen capture ketika mensimulasikan subscriber yang lambat. Banyak queuenya sudah mencapai 30 karena saya menjalankan cargo run berkali-kali
 
-![alt text](image-2.png)
-![alt text](image-1.png)
-![alt text](image-3.png)
+![alt text](img/image-2.png)
+![alt text](img/image-1.png)
+![alt text](img/image-3.png)
 Screen capture ketika mensimulasikan dengan 3 subscriber yang lambat, tampak spike dari message queue berkurang lebih cepat daripada sebelumnya karena request yang diterima queue akan dibagi tugaskan kepada 3 subscriber.
 
 What can be improved from this code:
