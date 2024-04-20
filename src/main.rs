@@ -17,7 +17,7 @@ impl MessageHandler<UserCreatedEventMessage> for UserCreatedHandler {
 
         // thread::sleep(ten_millis);
 
-        println!("In Fredo Melvern Tanzil, NPM 2206024713’s Computer [129500004y]. Message received: {:?}", message);
+        println!("In Fredo Melvern Tanzil’s Computer [2206024713]. Message received: {:?}", message);
         Ok(())
     }
     
