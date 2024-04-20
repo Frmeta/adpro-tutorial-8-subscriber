@@ -7,5 +7,5 @@ b. What it means? guest:guest@localhost:5672 , what is the first quest, and what
 - `localhost` is the hostname of the server. In this case, the server is running on the same machine as the client.
 - `5672` is the port number on which the server is listening. This is the default port for AMQP.
 
-
-
+Screen capture ketika mensimulasikan subscriber yang lambat
+![alt text](image.png)
